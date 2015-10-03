@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Calls on Bootstrap API(kinda)-->
+<head>
+  <title>Hernandez</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <style>
+  
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+  
+	.bg{
+    background-image: url("hexagonTile.jpg");
+    background-color: #cccccc;
+}
+  </style>
+</head>
+
+
+<body style= "background-color:grey">
+<!--This is a fixed nav bar that will remain at the top of the page-->
+
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">Hernandez J</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="johnnieForum.html">Forum <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="johnnieForum.html">under maintenance</a></li>
+            <li><a href="johnnieForum.html">under maintenance</a></li>
+            <li><a href="johnnieForum.html">under maintenance</a></li>
+          </ul>
+        </li>
+        <li><a href="johnnieBio.html">Bio</a></li>
+        <li class="active"><a href="johnnieCV.html">CV</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!--First line of text, includes name and quote-->
+
+
+<div class="container">
+	<div class="page-header">
+		<div class="bg">
+		<h1 class="text-center">
+			General Resume
+			
+		</h1>      
+		</div>
+	</div>
+	<div class="well">
+		<object data="cv0309.pdf" type="application/pdf" width="100%" height="700px">
+ 
+		<p>It appears you don't have a PDF plugin for this browser.
+		No biggie... you can <a href="cv0309.pdf">click here to
+		download the PDF file.</a></p>
+  
+		</object>
+		<p class="text-center">
+		My resume is frequently undergoing editing,
+		if you would like an up-to-date form you may request one at Johnnie.A.Hernandez@gmail.com 
+		</p>
+	</div>
+</div>
+
+
+</body>
+</html>
+
+
+

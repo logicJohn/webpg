@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Calls on Bootstrap API(kinda)-->
+<head>
+  <title>Hernandez</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+  </style>
+</head>
+
+
+<body style= "background-color:grey">
+<!--This is a fixed nav bar that will remain at the top of the page-->
+
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">Hernandez J</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li ><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="johnnieForum.html">Forum <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="johnnieForum.html">under maintenance</a></li>
+            <li><a href="johnnieForum.html">under maintenance</a></li>
+            <li><a href="johnnieForum.html">under maintenance</a></li>
+          </ul>
+        </li>
+        <li class="active"><a href="johnnieBio.html">Bio</a></li>
+        <li><a href="johnnieCV.html">CV</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> </a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> </a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!--First line of text, includes name and quote-->
+
+<h3 style="background-color:grey; text-align: center;">
+<div class="container">
+   <div class="page-header">
+  <h2 style="background-color:red">Bio</h2>
+  
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">General</a></li>
+    <li><a data-toggle="tab" href="#menu1">Education</a></li>
+    <li><a data-toggle="tab" href="#menu2">Goals</a></li>
+    <li><a data-toggle="tab" href="#menu3">Philosophy</a></li>
+  </ul>
+  </div>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+	  <div style="background-color:green">
+      <h3>ME</h3>
+      <p>I am Johnnie Hernandez (Jay) a mathematician and computer scientist currently residing in RTP/Durham North Carolina.  
+	  Originally from California I have spent the last several years of my life primarily in North Carolina only leaving during 
+	  intermissions when pulled away for military service.I have a deep interest in mathematics, science, technology and other 
+	  related fields.  I wanted to add this section so that hopefully you could learn a small bit about me and so 
+	  that I could say “Hello World”.
+	  </p>
+    </div>
+	</div>
+    <div id="menu1" class="tab-pane fade">
+      <h3>Education</h3>
+      <p>The first institute I have formally studied in was through the military vocational school where
+	  I learned electrical and computer systems repairs for the United States Army.
+	  There we covered a large skill set ranging from AC/DC electrical systems to computer software and networking.
+	  Second I have had the good fortune of studying Mathematics and Computer Science at East Carolina University.
+	  In specific in those fields I have studied logic, differential equations, data management, with a bit of focus in functional programming.   
+	  Outside of schools however I spend a lot of time balancing a personal education between physics and computer science/technology.  
+	  In specific I have been attempting to gain a larger understanding of quantum geometry and its application to modern scientific 
+	  queries while also studying data management and numerical analysis.  I find that the largest tools currently at our disposal 
+	  in the field of science are computers and the unique ability they contain to sort through large amounts of information in short periods of time.
+	  So a primary focus of my studies have been ways that we as a society can utilize machines to a higher level of efficiency than we currently do.
+	  </p>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h3>Goals</h3>
+      <p>
+	  If I were to attempt to sum my goals up into a single idea, I would say it would be that I wish to commit
+	  to a cause that will improve the day to day life of our society.  I truly believe that we can do best by
+	  ourselves by doing the best by others.  For me I would like to get into a field of technology, in specific
+	  research and development.  I feel here would be the greatest use of my ability to help others on a large scale.
+	  I am not foolish enough to believe that I will just fall into this line of work or that luck will be enough to carry
+	  my way through.  I do however believe that in order to gain a place in this field I can overcome any obstacles 
+	  in my way through hard work, dedication, and an unwavering commitment to the future.
+	  </p>
+    </div>
+    <div id="menu3" class="tab-pane fade">
+      <h3>Philosophy</h3>
+      <p>For a majority of my life I have had a deep focus in understanding the question “Why”.  
+	  This has illuminated the brightest in life with my interest in mathematics. What is Math?  
+	  From my point of view mathematics is the process of interpreting our universe, the act 
+	  of creating a buffer between our minds and the universe we exist in.  A mathematicians’ 
+	  job is to be a translator of this language. And like any translation there is always room for 
+	  error or lost in meaning, and it falls within our duty to continually adapt our understandings 
+	  as we learn more and more about the world.  We may not like what we hear but to a certain 
+	  degree we must always agree with it and at the same point always play the devils advocate 
+	  and try to disprove it.  Finally when when we develop that understanding of science and
+	  technology we then apply that to granting a higher quality of life not only to oursleves 
+	  but to society as a whole.
+       </p>
+    </div>
+  </div>
+</div>
+</h3>
+
+
+
+
+
+</body>
+</html>
+
+
+
